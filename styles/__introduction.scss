@@ -1,0 +1,47 @@
+// mobile
+.contents__introduction{
+    text-align: center;
+}
+
+.introduction__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45.36px;
+}
+
+.introduction__phrase{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7A746E;
+    padding: 0 30px;
+    margin-top: 16px;
+}
+
+// tablet
+@media (min-width:770px){
+    .introduction__title{
+        font-size: 44px;
+        line-height: 55.44px;
+    }
+    
+    .introduction__phrase{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0 98px;
+        margin-top: 27px;
+    }
+}
+
+// desktop
+@media (min-width: 1400px){
+    .introduction__title{
+        font-size: 56px;
+        line-height: 70.56px;
+    }
+    
+    .introduction__phrase{
+        padding: 0 355px;
+        margin-top: 23px;
+    }
+}
